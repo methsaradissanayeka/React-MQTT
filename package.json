@@ -1,0 +1,22 @@
+{
+  "name": "mqttc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mqtt": "^5.2.2",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
